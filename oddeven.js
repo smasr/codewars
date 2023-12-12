@@ -20,8 +20,10 @@ Have fun!*/
 
 function oddOrEven(array) {
     let sum =0
+    //this is add the sum of the array 
      array.forEach((a) => sum+=a)
     console.log(sum)
+    //then check to see if they are odd or even by dividing by 2 and checking for remainder 
     if(sum%2 === 0){
       return 'even'
     }

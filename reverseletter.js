@@ -16,9 +16,10 @@ A string consists of lowercase latin letters, digits and symbols.
 
 function reverseLetter(str) {
     //coding and coding..
+    //first take out any numbers 
     let str2= str.replace(/[0-9]/g, '').replace(/[^a-z0-9]/g, '')
     console.log(str2)
-  
+    //do split reverse and join to reverse the string 
     return(str2.split('').reverse().join(''))
    
   }
