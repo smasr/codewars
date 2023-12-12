@@ -12,6 +12,8 @@ In mathematics, a square number or perfect square is an integer that is the squa
 The tests will always use some integral number, so don't worry about that in dynamic typed languages.
 */
 
+
+//you just have to check that the squareroot is divisible by 1 it not you know there is a remainder 
 var isSquare = function(n){
 
     if (Math.sqrt(n)% 1 ==0 ){
