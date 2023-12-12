@@ -6,6 +6,8 @@ Example:
 n= 5, m=5: 25
 n=-5, m=5:  0*/
 
+
+//simple multiplcation problem if they are both less than 0 return 0 if not multiply them together 
 function paperwork(n, m) {
     if(n < 0 || m < 0){
       return 0
