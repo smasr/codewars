@@ -12,12 +12,18 @@ You will only be given Natural Numbers as arguments.
 1 --> 1 --> "1.00"
 2 --> 1 + 1/4 --> "1.25"
 5 --> 1 + 1/4 + 1/7 + 1/10 + 1/13 --> */
+
+
+
 function SeriesSum(n)
 {
   var sum =0
+  //add the value while increaseing the denominator by 3 
   for(let i=0; i<n; i++) {
    sum += 1/(1 + (i*3)) 
   }
+
+  //setting the decimal place 2 
   return sum.toFixed(2)
   // Happy Coding ^_^
 }
