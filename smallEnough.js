@@ -3,9 +3,11 @@ DESCRIPTION:
 
 You can assume all values in the array are numbers.*/
 
-
+//You have to sort the arry then check the final value to see if it is less than limit 
 function smallEnough(a, limit){
+    //sorting is done here 
     let sortarr = a.sort((a,b)=> a-b)
+    //checking to see if the limit is bigger or not 
     if(sortarr[a.length-1] <= limit){
       return true
     }
